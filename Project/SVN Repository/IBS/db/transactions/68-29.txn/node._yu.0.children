@@ -1,0 +1,49 @@
+END
+K 13
+bg-center.gif
+V 17
+file _yv.0.t68-29
+K 11
+bg-left.gif
+V 17
+file _yw.0.t68-29
+K 12
+bg-right.gif
+V 17
+file _yx.0.t68-29
+K 9
+close.gif
+V 17
+file _yy.0.t68-29
+K 12
+collapse.gif
+V 17
+file _yz.0.t68-29
+K 10
+dlg-bg.gif
+V 17
+file _z0.0.t68-29
+K 12
+e-handle.gif
+V 17
+file _z1.0.t68-29
+K 10
+expand.gif
+V 17
+file _z2.0.t68-29
+K 13
+hd-sprite.gif
+V 17
+file _z3.0.t68-29
+K 12
+s-handle.gif
+V 17
+file _z4.0.t68-29
+K 13
+se-handle.gif
+V 17
+file _z5.0.t68-29
+K 12
+w-handle.gif
+V 17
+file _z6.0.t68-29

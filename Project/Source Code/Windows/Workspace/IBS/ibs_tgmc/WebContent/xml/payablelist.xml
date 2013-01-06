@@ -1,0 +1,37 @@
+<Commands>
+	<Total>
+		4
+	</Total>
+	
+	<Item>
+		<id>
+			1
+		</id>
+		<title>Axis Bank Bangalore</title>
+		<code>0544</code>
+	</Item>
+		
+	<Item>
+		<id>
+			2
+		</id>
+		<title>HDFC Cochin</title>
+		<code>0367</code>
+	</Item>
+	
+	<Item>
+		<id>
+			3
+		</id>
+		<title>IT-BHU</title>
+		<code>07654</code>
+	</Item>
+	
+	<Item>
+		<id>
+			4
+		</id>
+		<title>SBI Varanasi</title>
+		<code>0542</code>
+	</Item>
+</Commands>

@@ -1,0 +1,164 @@
+PLAIN
+K 23
+DatabaseConnection.java
+V 20
+file 1-66.0.r66/1121
+K 17
+ExecuteQuery.java
+V 19
+file 2-66.0.r77/326
+K 18
+HandleSession.java
+V 19
+file 3-66.0.r66/952
+K 11
+changes.txt
+V 19
+file 1-76.0.r76/886
+END
+ENDREP
+id: 0-66.0.r80/211
+type: dir
+pred: 0-66.0.r77/770
+count: 3
+text: 80 0 198 198 d0e7da91e48e4b57476de9ac17a22674
+cpath: /Coding Docs/Psuedo Codes/DbAccess
+copyroot: 0 /
+
+PLAIN
+K 11
+DBConn.java
+V 20
+file 0-64.0.r64/1282
+K 8
+DbAccess
+V 18
+dir 0-66.0.r80/211
+K 19
+ForgotPassword.java
+V 20
+file 1-64.0.r64/1434
+K 10
+Login.java
+V 20
+file 2-64.0.r64/1750
+K 10
+My Profile
+V 20
+dir 0-67.0.r67/18810
+K 11
+Search.java
+V 20
+file 3-64.0.r64/1596
+K 9
+Utilities
+V 19
+dir 0-68.0.r68/4510
+K 13
+Validate.java
+V 20
+file 4-64.0.r64/1903
+K 5
+login
+V 18
+dir 1-58.0.r61/953
+END
+ENDREP
+id: 0-58.0.r80/772
+type: dir
+pred: 0-58.0.r77/1334
+count: 10
+text: 80 379 380 380 260b24b9f427d1cd749496ed72adbd4c
+cpath: /Coding Docs/Psuedo Codes
+copyroot: 0 /
+
+PLAIN
+K 34
+Coding ConvevtionByTeenovators.doc
+V 21
+file 0-46.0.r46/92040
+K 34
+Coding ConvevtionByTeenovators.pdf
+V 21
+file 1-46.0.r46/92275
+K 9
+Order.txt
+V 20
+file 0-63.0.r68/3015
+K 12
+Psuedo Codes
+V 18
+dir 0-58.0.r80/772
+END
+ENDREP
+id: a-1.0.r80/1168
+type: dir
+pred: a-1.0.r77/1731
+count: 18
+text: 80 935 220 220 fa333be6b20d081420a81bfb30b287d5
+cpath: /Coding Docs
+copyroot: 0 /
+
+PLAIN
+K 20
+Actual Front End.JPG
+V 21
+file 0-70.0.r71/96007
+K 11
+Coding Docs
+V 18
+dir a-1.0.r80/1168
+K 11
+Design Docs
+V 18
+dir 1-1.0.r74/3297
+K 19
+Installation Guides
+V 19
+dir 0-1.0.r1/705254
+K 10
+Other Docs
+V 19
+dir 9-1.0.r1/706767
+K 16
+Requirement Docs
+V 19
+dir 4-1.0.r72/82279
+K 11
+Source Code
+V 22
+dir 0-79.0.r79/1183267
+K 12
+Testing Docs
+V 19
+dir 3-1.0.r1/705482
+K 9
+Tutorials
+V 20
+dir 2-1.0.r2/4493314
+K 22
+Username_Passwords.doc
+V 20
+file 0-78.0.r78/6331
+K 25
+configuration details.txt
+V 19
+file 0-75.0.r75/497
+K 20
+teenovators_logo.gif
+V 21
+file 0-57.0.r57/13590
+END
+ENDREP
+id: 0.0.r80/1898
+type: dir
+pred: 0.0.r79/1183981
+count: 80
+text: 80 1317 568 568 ff422a0ce4770693e355d437dd4f3f6c
+cpath: /
+copyroot: 0 /
+
+0-76.0.r76/722 delete false false /Coding Docs/Psuedo Codes/DbAccess/DoPayment.java
+
+
+1898 2036

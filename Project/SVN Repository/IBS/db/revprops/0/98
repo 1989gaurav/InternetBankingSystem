@@ -1,0 +1,13 @@
+K 10
+svn:author
+V 6
+gaurav
+K 8
+svn:date
+V 27
+2008-09-28T13:11:32.437500Z
+K 7
+svn:log
+V 69
+deleted DbConnection and execute query and made a new class dbaccess 
+END

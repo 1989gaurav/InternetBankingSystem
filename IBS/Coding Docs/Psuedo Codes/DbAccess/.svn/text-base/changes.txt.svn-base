@@ -1,0 +1,6 @@
+Schema Diagram Modification
+	1. Add account balance field in account details
+	2. No need to having two account number from and to in credit and debit
+		for debit account number will be the number from where amount is debited
+		for credit account number will be the number where amount should be credited
+	

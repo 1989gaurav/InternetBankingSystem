@@ -1,0 +1,37 @@
+Black Box :
+
+
+User ID
+Input
+Output
+Remarks
+
+Account No.
+Draft No.
+
+
+1
+1024657847
+176348
+Issued
+Working properly
+1
+1024659247
+176348
+Error : operation could not be completed
+Working, error because this draft was not issued to give account number 
+error should be more specific for wrong draft number
+4
+1024633347
+176351
+Issued
+Working properly
+4
+1024653247
+176351
+Error : operation could not be completed
+Working, error because this draft was not issued to give account number 
+
+
+White Box :
+		No error is possible from implementation, so it is robust enough to handle all cases.

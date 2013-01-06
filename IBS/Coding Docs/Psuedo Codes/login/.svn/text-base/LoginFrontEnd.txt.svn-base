@@ -1,0 +1,51 @@
+//A form to search for a query on IBS site
+<form name="search" action="DoSearch">									 
+	<input type="text" name="Search" > 									//To search for a query
+	<input type="Submit" value="Go">									//submit button for search form with value Go
+</form>
+
+
+
+//A form to locate branch, ATM present in database
+<form name="AtmBranchlcoator" action="locate"> 						
+	<input type="checkbox" name="isATM" value="ATM">					//Check box to select wheather locating ATM 
+	<input type="checkbox" name="isBranch" value="Branch">				//Check box to select wheather locating Branch
+	
+	<select name="City">
+		
+		// Using ajax dynamically load all names present in database
+		<option value ="City">City</option>								// all possible cities that can be shown to a normal user 
+  
+	</select>
+	
+	<input type="Submit" value="Go">									// To allocate branch and atm
+	
+</form>
+
+//A form to login in it's account
+<form>
+	<input type="text" name="UserName">									// username
+	<input type="password" name="Password">								// password
+	
+	<input type="radio" name="AccountType" value="Personal"> Personal	// radio button to select account type that can be shown to a normal user
+	<input type="radio" name="AccountType" value="Corporate"> Corporate
+							
+		
+	<input type="Submit" value="Log in">								// To login
+	<input type="Reset" value="reset">									// To reset
+	
+	
+	<button type="button" onclick=enableVirtualKeyBoard()>Enable Virtual Key Board</button>			// To enable virtual key board
+	
+	<a href="ForgotPassword.jsp">Forgot Password</a>
+	<a href="Trouble.jsp">Trouble logging in</a>
+	
+	
+</form>
+
+
+	<a href="feedback.jsp">Feedback & Customer Care</a>
+	
+	<embbed a flash file/>
+
+

@@ -1,0 +1,17 @@
+K 10
+svn:author
+V 4
+ajay
+K 8
+svn:date
+V 27
+2008-09-11T06:25:30.093750Z
+K 7
+svn:log
+V 111
+three changes are made
+1- Admin console added
+2- Customizable skins/themes
+3- logs (transaction, login/logout)
+
+END

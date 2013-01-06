@@ -1,0 +1,7 @@
+//changes
+1. Schema diagram
+	1) Add Default Account in the myProfile
+	2) In loan Mapping loanAccount NUmber rather than LoanAccount
+	3) No table to store request account number by a user // so leaving requestAccount.java for updation
+	4) In table account settings either it should be profileSettings or if it is account settings then instead of userId it should be account number
+	//So I am doing by replacing userId with AccountNumber if it is not so then correct me i will change pseudo code of ChangeSecurityLevel

@@ -1,0 +1,133 @@
+PLAIN
+K 6
+Common
+V 19
+dir 0-81.0.r81/1941
+K 8
+DbAccess
+V 18
+dir 0-66.0.r80/211
+K 14
+Money Transfer
+V 19
+dir 0-82.0.r82/6720
+K 10
+My Profile
+V 20
+dir 0-67.0.r67/18810
+K 9
+Utilities
+V 19
+dir 0-68.0.r68/4510
+K 5
+login
+V 18
+dir 1-58.0.r61/953
+END
+ENDREP
+id: 0-58.0.r83/250
+type: dir
+pred: 0-58.0.r82/7351
+count: 13
+text: 83 0 237 237 7b7df8822170065fe205676576340c9f
+cpath: /Coding Docs/Psuedo Codes
+copyroot: 0 /
+
+PLAIN
+K 34
+Coding ConvevtionByTeenovators.doc
+V 21
+file 0-46.0.r46/92040
+K 34
+Coding ConvevtionByTeenovators.pdf
+V 21
+file 1-46.0.r46/92275
+K 9
+Order.txt
+V 20
+file 0-63.0.r68/3015
+K 12
+Psuedo Codes
+V 18
+dir 0-58.0.r83/250
+END
+ENDREP
+id: a-1.0.r83/644
+type: dir
+pred: a-1.0.r82/7750
+count: 21
+text: 83 411 220 220 4c9004ab130e7c0d734e8c0080582a5d
+cpath: /Coding Docs
+copyroot: 0 /
+
+PLAIN
+K 20
+Actual Front End.JPG
+V 21
+file 0-70.0.r71/96007
+K 11
+Coding Docs
+V 17
+dir a-1.0.r83/644
+K 11
+Design Docs
+V 18
+dir 1-1.0.r74/3297
+K 19
+Installation Guides
+V 19
+dir 0-1.0.r1/705254
+K 10
+Other Docs
+V 19
+dir 9-1.0.r1/706767
+K 16
+Requirement Docs
+V 19
+dir 4-1.0.r72/82279
+K 11
+Source Code
+V 22
+dir 0-79.0.r79/1183267
+K 12
+Testing Docs
+V 19
+dir 3-1.0.r1/705482
+K 9
+Tutorials
+V 20
+dir 2-1.0.r2/4493314
+K 22
+Username_Passwords.doc
+V 20
+file 0-78.0.r78/6331
+K 25
+configuration details.txt
+V 19
+file 0-75.0.r75/497
+K 20
+teenovators_logo.gif
+V 21
+file 0-57.0.r57/13590
+END
+ENDREP
+id: 0.0.r83/1372
+type: dir
+pred: 0.0.r82/8481
+count: 83
+text: 83 792 567 567 febaa2d1482e668a7a71a1f3cfd0b92f
+cpath: /
+copyroot: 0 /
+
+2-64.0.r64/1750 delete false false /Coding Docs/Psuedo Codes/Login.java
+
+4-64.0.r64/1903 delete false false /Coding Docs/Psuedo Codes/Validate.java
+
+0-64.0.r64/1282 delete false false /Coding Docs/Psuedo Codes/DBConn.java
+
+1-64.0.r64/1434 delete false false /Coding Docs/Psuedo Codes/ForgotPassword.java
+
+3-64.0.r64/1596 delete false false /Coding Docs/Psuedo Codes/Search.java
+
+
+1372 1506

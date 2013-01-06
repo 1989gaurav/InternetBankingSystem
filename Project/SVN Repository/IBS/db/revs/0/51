@@ -1,0 +1,137 @@
+DELTA
+SVNENDREP
+id: 0-51.0.r51/17
+type: file
+count: 0
+text: 51 0 4 0 d41d8cd98f00b204e9800998ecf8427e
+cpath: /Design Docs/Design BackUp Files/Backup_ajay/ibs_bak.uml
+copyroot: 0 /
+
+PLAIN
+K 7
+ibs.uml
+V 21
+file 0-50.0.r50/30113
+K 11
+ibs_bak.uml
+V 18
+file 0-51.0.r51/17
+END
+ENDREP
+id: 0-49.0.r51/279
+type: dir
+pred: 0-49.0.r50/30342
+count: 2
+text: 51 182 84 84 c953fe34b8672575d382206eaab16e52
+cpath: /Design Docs/Design BackUp Files/Backup_ajay
+copyroot: 0 /
+
+PLAIN
+K 11
+Backup_ajay
+V 18
+dir 0-49.0.r51/279
+K 15
+E-R Diagram.edx
+V 21
+file 0-45.0.r45/53716
+K 7
+ibs.EAP
+V 22
+file 0-47.0.r47/491077
+END
+ENDREP
+id: 0-44.0.r51/605
+type: dir
+pred: 0-44.0.r50/30670
+count: 5
+text: 51 459 133 133 badc5966ec2b410c77666b89f04e9016
+cpath: /Design Docs/Design BackUp Files
+copyroot: 0 /
+
+PLAIN
+K 21
+Architecture Diagrams
+V 22
+dir 0-13.0.r43/1671486
+K 14
+Class Diagrams
+V 20
+dir 0-36.0.r41/89182
+K 3
+DFD
+V 19
+dir 0-38.0.r39/2242
+K 19
+Design BackUp Files
+V 18
+dir 0-44.0.r51/605
+K 11
+E-R Diagram
+V 20
+dir 0-37.0.r37/85951
+K 14
+Schema Diagram
+V 22
+dir 0-17.0.r43/1670903
+K 17
+Sequence Diagrams
+V 22
+dir 0-41.0.r43/1670384
+K 8
+Use case
+V 18
+dir 0-15.0.r35/681
+END
+ENDREP
+id: 1-1.0.r51/1154
+type: dir
+pred: 1-1.0.r50/31223
+count: 35
+text: 51 775 366 366 32e1bdb3c2b0ee0d2338e0f2d82e30d3
+cpath: /Design Docs
+copyroot: 0 /
+
+PLAIN
+K 11
+Coding Docs
+V 17
+dir a-1.0.r48/264
+K 11
+Design Docs
+V 18
+dir 1-1.0.r51/1154
+K 19
+Installation Guides
+V 19
+dir 0-1.0.r1/705254
+K 10
+Other Docs
+V 19
+dir 9-1.0.r1/706767
+K 16
+Requirement Docs
+V 21
+dir 4-1.0.r43/1672781
+K 12
+Testing Docs
+V 19
+dir 3-1.0.r1/705482
+K 9
+Tutorials
+V 20
+dir 2-1.0.r2/4493314
+END
+ENDREP
+id: 0.0.r51/1625
+type: dir
+pred: 0.0.r50/31696
+count: 51
+text: 51 1304 308 308 cfd875aa76301d32e4ba4c0b31fce748
+cpath: /
+copyroot: 0 /
+
+_0.0.t50-1n add true false /Design Docs/Design BackUp Files/Backup_ajay/ibs_bak.uml
+
+
+1625 1761

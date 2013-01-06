@@ -1,0 +1,19 @@
+A. In Schema design
+		1. No table for wrong login ateempt count.
+		2. ATM locator info need to be added in a separate table
+		
+B. In class Diagrams
+		1. DatabaseConnection class need to be added
+		2. ForgotPassword Class need to be added
+		
+		
+		
+		
+//Changes for ajay bhaiyya in these modules
+	1. Firstly should not DatabaseConnection be a different module to open, close and handle connection.
+	2. There should be a function in DatabaseConnection closeConnection(string URL) which will close connection properly
+	3. Class name and file name should be same, so rename DBConn.java to DatabaseConnection.java
+	4. In file DBConn.java getDatabaseConnection should return conn.
+	5. In DatabaseConnection should connection variable need to be public.
+	6. For security reasons we will save encrypted password in our database, So in Login.java class first encrypt the password and then check into the database
+	7. So it will be easier to make a new module to encrypt and decrypt password using some algorithm

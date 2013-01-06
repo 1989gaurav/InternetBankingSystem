@@ -1,0 +1,366 @@
+-- This CLP file was created using DB2LOOK Version 9.5
+-- Timestamp: 11/5/2008 3:01:54 PM
+-- Database Name: IBS            
+-- Database Manager Version: DB2/NT Version 9.5.0          
+-- Database Codepage: 1208
+-- Database Collating Sequence is: SYSTEM_1252
+
+
+CONNECT TO IBS;
+
+------------------------------------
+-- DDL Statements for TABLESPACES --
+------------------------------------
+
+
+CREATE LARGE TABLESPACE SYSTOOLSPACE IN DATABASE PARTITION GROUP IBMCATGROUP 
+	 PAGESIZE 4096 MANAGED BY AUTOMATIC STORAGE 
+	 AUTORESIZE YES 
+	 INITIALSIZE 32 M 
+	 MAXSIZE NONE 
+	 EXTENTSIZE 4
+	 PREFETCHSIZE AUTOMATIC
+	 BUFFERPOOL IBMDEFAULTBP
+	 OVERHEAD 7.500000
+	 TRANSFERRATE 0.060000 
+	 DROPPED TABLE RECOVERY ON;
+
+
+CREATE USER TEMPORARY TABLESPACE SYSTOOLSTMPSPACE IN DATABASE PARTITION GROUP IBMCATGROUP 
+	 PAGESIZE 4096 MANAGED BY AUTOMATIC STORAGE 
+	 EXTENTSIZE 4
+	 PREFETCHSIZE AUTOMATIC
+	 BUFFERPOOL IBMDEFAULTBP
+	 OVERHEAD 7.500000
+	 TRANSFERRATE 0.060000 
+	 FILE SYSTEM CACHING  
+	 DROPPED TABLE RECOVERY OFF;
+
+
+-- Mimic tablespace
+
+ALTER TABLESPACE SYSCATSPACE
+      PREFETCHSIZE AUTOMATIC
+      OVERHEAD 7.500000
+      FILE SYSTEM CACHING 
+      TRANSFERRATE 0.060000;
+
+
+ALTER TABLESPACE TEMPSPACE1
+      PREFETCHSIZE AUTOMATIC
+      OVERHEAD 7.500000
+      FILE SYSTEM CACHING 
+      TRANSFERRATE 0.060000;
+
+
+ALTER TABLESPACE USERSPACE1
+      PREFETCHSIZE AUTOMATIC
+      OVERHEAD 7.500000
+      FILE SYSTEM CACHING 
+      TRANSFERRATE 0.060000;
+
+
+
+
+------------------------------------------------
+-- DDL Statements for table "DB2ADMIN"."PLOGININFO"
+------------------------------------------------
+ 
+
+CREATE TABLE "DB2ADMIN"."PLOGININFO"  (
+		  "USERNAME" VARCHAR(20) , 
+		  "PASSWORD" VARCHAR(20) , 
+		  "LASTLOGINDATE" DATE , 
+		  "LASTLOGINTIME" TIME , 
+		  "BLOCKSTATUS" INTEGER , 
+		  "USERID" INTEGER , 
+		  "TRANSACTIONPASS" VARCHAR(20) )   
+		 IN "USERSPACE1" ; 
+
+
+
+
+
+
+------------------------------------------------
+-- DDL Statements for table "DB2ADMIN"."CLOGININFO"
+------------------------------------------------
+ 
+
+CREATE TABLE "DB2ADMIN"."CLOGININFO"  (
+		  "USERNAME" VARCHAR(20) , 
+		  "PASSWORD" VARCHAR(20) , 
+		  "LASTLOGINDATE" DATE , 
+		  "LASTLOGINTIME" TIME , 
+		  "BLOCKSTATUS" INTEGER , 
+		  "USERID" INTEGER , 
+		  "TRANSACTIONPASS" VARCHAR(20) )   
+		 IN "USERSPACE1" ; 
+
+
+
+
+
+
+------------------------------------------------
+-- DDL Statements for table "DB2ADMIN"."MYPROFILE"
+------------------------------------------------
+ 
+
+CREATE TABLE "DB2ADMIN"."MYPROFILE"  (
+		  "USERID" INTEGER , 
+		  "MYNAME" VARCHAR(25) , 
+		  "MYADDRESS" VARCHAR(50) , 
+		  "MYPHONE" VARCHAR(15) , 
+		  "MAIL" VARCHAR(50) , 
+		  "IDPROOF" VARCHAR(20) , 
+		  "IDTYPE" VARCHAR(40) )   
+		 IN "USERSPACE1" ; 
+
+
+
+
+
+
+------------------------------------------------
+-- DDL Statements for table "DB2ADMIN"."PROFILESETTINGS"
+------------------------------------------------
+ 
+
+CREATE TABLE "DB2ADMIN"."PROFILESETTINGS"  (
+		  "USERID" INTEGER , 
+		  "SECURITYCODE" VARCHAR(20) , 
+		  "DEFAULTTHEME" VARCHAR(20) )   
+		 IN "USERSPACE1" ; 
+
+
+
+
+
+
+------------------------------------------------
+-- DDL Statements for table "DB2ADMIN"."ACCOUNTMAPPING"
+------------------------------------------------
+ 
+
+CREATE TABLE "DB2ADMIN"."ACCOUNTMAPPING"  (
+		  "USERID" INTEGER , 
+		  "ACCOUNTNUMBER" BIGINT )   
+		 IN "USERSPACE1" ; 
+
+
+
+
+
+
+------------------------------------------------
+-- DDL Statements for table "DB2ADMIN"."ACCOUNTDETAILS"
+------------------------------------------------
+ 
+
+CREATE TABLE "DB2ADMIN"."ACCOUNTDETAILS"  (
+		  "ACCOUNTNUMBER" BIGINT , 
+		  "ACCOUNTTYPE" VARCHAR(20) , 
+		  "OPENDATE" DATE , 
+		  "BALANCE" DOUBLE , 
+		  "HOLDER1" VARCHAR(20) , 
+		  "HOLDER2" VARCHAR(20) , 
+		  "HOLDER3" VARCHAR(20) , 
+		  "GURANTEE1" VARCHAR(20) , 
+		  "GURANTEE2" VARCHAR(20) , 
+		  "IDPROOF1" VARCHAR(20) , 
+		  "IDPROOF2" VARCHAR(20) , 
+		  "IDPROOF3" VARCHAR(20) , 
+		  "DRAFTLIMIT" DOUBLE )   
+		 IN "USERSPACE1" ; 
+
+
+
+
+
+
+------------------------------------------------
+-- DDL Statements for table "DB2ADMIN"."DRAFT"
+------------------------------------------------
+ 
+
+CREATE TABLE "DB2ADMIN"."DRAFT"  (
+		  "ACNUMBER" BIGINT , 
+		  "FAVOUR" VARCHAR(100) , 
+		  "AMOUNT" DOUBLE , 
+		  "PAYABLE" VARCHAR(100) , 
+		  "STATUS" VARCHAR(100) , 
+		  "MODE" VARCHAR(10) , 
+		  "DRAFTNUM" INTEGER )   
+		 IN "USERSPACE1" ; 
+
+
+
+
+
+
+------------------------------------------------
+-- DDL Statements for table "DB2ADMIN"."CREDIT"
+------------------------------------------------
+ 
+
+CREATE TABLE "DB2ADMIN"."CREDIT"  (
+		  "ACCOUNTNUMBER" BIGINT , 
+		  "AMOUNT" DOUBLE , 
+		  "TRANSACTIONID" INTEGER , 
+		  "DETAILS" VARCHAR(80) )   
+		 IN "USERSPACE1" ; 
+
+
+
+
+
+
+------------------------------------------------
+-- DDL Statements for table "DB2ADMIN"."DEBIT"
+------------------------------------------------
+ 
+
+CREATE TABLE "DB2ADMIN"."DEBIT"  (
+		  "ACCOUNTNUMBER" BIGINT , 
+		  "AMOUNT" DOUBLE , 
+		  "TRANSACTIONID" INTEGER , 
+		  "DETAILS" VARCHAR(80) )   
+		 IN "USERSPACE1" ; 
+
+
+
+
+
+
+------------------------------------------------
+-- DDL Statements for table "DB2ADMIN"."TRANSACTION"
+------------------------------------------------
+ 
+
+CREATE TABLE "DB2ADMIN"."TRANSACTION"  (
+		  "TRANSACTIONID" INTEGER , 
+		  "TIME" TIME , 
+		  "DATE" DATE )   
+		 IN "USERSPACE1" ; 
+
+
+
+
+
+
+------------------------------------------------
+-- DDL Statements for table "DB2ADMIN"."COUNT"
+------------------------------------------------
+ 
+
+CREATE TABLE "DB2ADMIN"."COUNT"  (
+		  "CNT" VARCHAR(40) , 
+		  "VALUE" INTEGER )   
+		 IN "USERSPACE1" ; 
+
+
+
+
+
+
+------------------------------------------------
+-- DDL Statements for table "DB2ADMIN"."REMITTANCE"
+------------------------------------------------
+ 
+
+CREATE TABLE "DB2ADMIN"."REMITTANCE"  (
+		  "ACCOUNTISSUEFROM" BIGINT , 
+		  "ACCOUNTISSUETO" BIGINT , 
+		  "AMOUNT" DOUBLE , 
+		  "DATEISSUE" DATE , 
+		  "TRANSACTIONID" INTEGER , 
+		  "BANKISSUETO" VARCHAR(50) )   
+		 IN "USERSPACE1" ; 
+
+
+
+
+
+
+------------------------------------------------
+-- DDL Statements for table "DB2ADMIN"."BILLERMAPPING"
+------------------------------------------------
+ 
+
+CREATE TABLE "DB2ADMIN"."BILLERMAPPING"  (
+		  "USERID" INTEGER , 
+		  "PROVIDER" VARCHAR(80) , 
+		  "NICK" VARCHAR(20) )   
+		 IN "USERSPACE1" ; 
+
+
+
+
+
+
+------------------------------------------------
+-- DDL Statements for table "DB2ADMIN"."BILLINFO"
+------------------------------------------------
+ 
+
+CREATE TABLE "DB2ADMIN"."BILLINFO"  (
+		  "ACCOUNTNUMBER" BIGINT , 
+		  "PROVIDER" VARCHAR(80) , 
+		  "BILLNUMBER" BIGINT , 
+		  "AMOUNTPAID" DOUBLE , 
+		  "DATETRANSACTION" DATE , 
+		  "TIMETRANSACTION" TIME , 
+		  "TRANSACTIONID" INTEGER )   
+		 IN "USERSPACE1" ; 
+
+
+
+
+
+
+------------------------------------------------
+-- DDL Statements for table "DB2ADMIN"."CHEQUEBOOK"
+------------------------------------------------
+ 
+
+CREATE TABLE "DB2ADMIN"."CHEQUEBOOK"  (
+		  "ACCOUNTNUMBER" BIGINT , 
+		  "CHEQUEQTY" INTEGER , 
+		  "DATEISSUED" DATE , 
+		  "CHEQUEBOOKNUMBER" INTEGER , 
+		  "CHEQUESTART" INTEGER , 
+		  "CHEQUEEND" INTEGER , 
+		  "MODE" VARCHAR(20) )   
+		 IN "USERSPACE1" ; 
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------
+-- Authorization statement on table space 
+---------------------------------------
+
+ 
+GRANT USE OF TABLESPACE "SYSTOOLSTMPSPACE" TO  PUBLIC   ;
+
+COMMIT WORK;
+
+CONNECT RESET;
+
+TERMINATE;
+
+-- Creating DDL for table(s)
+-- Binding package automatically ... 
+-- Bind is successful
+-- Binding package automatically ... 
+-- Bind is successful
+;

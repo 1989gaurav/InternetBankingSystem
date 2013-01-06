@@ -1,0 +1,89 @@
+<Commands>
+	<Total>
+		12
+	</Total>
+	
+	<Item>
+		<id>
+			1
+		</id>
+		<title>Airtel Jaipur</title>
+	</Item>
+	
+	<Item>
+		<id>
+			2
+		</id>
+		<title>Airtel Kanpur</title>
+	</Item>
+	
+	<Item>
+		<id>
+			3
+		</id>
+		<title>Airtel Varanasi</title>
+	</Item>
+	
+	<Item>
+		<id>
+			4
+		</id>
+		<title>BSNL Gwalior</title>
+	</Item>
+	
+	<Item>
+		<id>
+			5
+		</id>
+		<title>BSNL Jaipur</title>
+	</Item>
+		
+	<Item>
+		<id>
+			6
+		</id>
+		<title>BSNL Kanpur</title>
+	</Item>
+	
+	<Item>
+		<id>
+			7
+		</id>
+		<title>MPEB Gwalior</title>
+	</Item>
+	
+	<Item>
+		<id>
+			8
+		</id>
+		<title>REB Jaipur</title>
+	</Item>
+	
+	<Item>
+		<id>
+			9
+		</id>
+		<title>TATA Indicomm Varanasi</title>
+	</Item>
+		
+	<Item>
+		<id>
+			10
+		</id>
+		<title>UPEB Kanpur</title>
+	</Item>
+	
+	<Item>
+		<id>
+			11
+		</id>
+		<title>UPEB Meerut</title>
+	</Item>
+	
+	<Item>
+		<id>
+			12
+		</id>
+		<title>Vodafone Varanasi</title>
+	</Item>
+</Commands>

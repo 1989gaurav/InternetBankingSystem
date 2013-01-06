@@ -1,0 +1,73 @@
+Black Box :
+
+User ID
+Input
+Output
+Remarks
+
+Pay To
+amount
+Payable at
+Account
+Transaction password
+
+
+1
+canteen
+5000
+SBI Varanasi
+1024657847
+karantrans
+Issued
+Working properly
+1
+canteen
+5000000
+SBI Varanasi
+1024657847
+karantrans
+Limit exeeded
+Working properly
+1
+canteen
+5000
+SBI Varanasi
+1024657847
+karan
+Wrong password
+Working properly
+1
+canteen
+5000
+unknown
+1024657847
+karantrans
+Issued
+It should prompt error that no such bank exists
+4
+canteen
+500
+SBI Varanasi
+1024633347
+gauravtrans
+Issued
+Working properly
+4
+canteen
+5000
+SBI Varanasi
+1024657847
+gauravtrans
+Limit exeeded
+Working properly
+4
+canteen
+500
+SBI Varanasi
+1024657847
+gaurav
+Wrong password
+Working properly
+
+
+

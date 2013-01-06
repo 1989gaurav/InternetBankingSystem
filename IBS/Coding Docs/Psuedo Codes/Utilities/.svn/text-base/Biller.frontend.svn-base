@@ -1,0 +1,15 @@
+/****************************************************
+* created : Sunday 24 September 2008, 07:39:43  IST *
+*						    *
+* Author: Ajay Kumar Gautam			    *
+* ajay.kr.gtm@gmail.com				    *
+*						    *
+****************************************************/
+
+Variable names for different fields are
+
+
+BillerName : dropdown menu or other type of list	//name of the biller. Ex- Airtel
+BillerState :dropdown menu or other type of list 	//State of biller. Ex- UP
+BillerCity : dropdown menu or other type of list	//City of biller. Ex- Meerut
+BillerID : textbox					//Biller ID. Ex-UP/MRT/211

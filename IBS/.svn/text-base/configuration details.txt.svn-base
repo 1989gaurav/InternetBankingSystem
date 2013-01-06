@@ -1,0 +1,37 @@
+Here are the some domain name which are mapped to ip's for easy access of database and websphere :
+
+db2 Database server                            database.ibs.com                    10.8.41.187
+===============
+
+websphere                                          server.ibs.com                         10.8.41.201
+===============
+
+svn repository                                     repository.ibs.com                    10.8.51.153
+===============
+
+
+=====================================================================================================
+Configuration Information :
+
+Websphere
+
+Username:       system
+Pass:           thesaurus
+I.P.            10.8.41.201/server.ibs.com
+HTTP port :     8080
+HTTPS port :    8443
+AJP port     :  8009
+
+DB2
+
+Username:       db2admin
+Pass:           thesaurus
+Database:       ibs
+
+Database pool
+
+name of database pool  : ibs
+Pass:                    thesaurus
+pool size:               500
+IP of database           10.8.41.187/database.ibs.com
+Port                     50000

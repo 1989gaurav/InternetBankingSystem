@@ -1,0 +1,133 @@
+PLAIN
+K 14
+AddAccount.png
+V 20
+file 0-20.0.r20/4503
+K 9
+Bills.png
+V 20
+file 0-21.0.r21/3222
+K 18
+ChangePassword.png
+V 20
+file 0-22.0.r22/3333
+K 18
+ChangeSettings.png
+V 20
+file 0-23.0.r23/5765
+K 9
+Print.png
+V 20
+file 0-25.0.r25/4059
+K 21
+RequestNewAccount.png
+V 20
+file 0-26.0.r26/2453
+K 12
+Requests.png
+V 20
+file 0-27.0.r27/5592
+K 10
+Search.png
+V 20
+file 0-28.0.r28/4231
+K 22
+SmartMoneyTransfer.png
+V 20
+file 0-29.0.r29/3646
+K 23
+StandingInstruction.png
+V 20
+file 0-30.0.r30/4803
+K 22
+TransactionReports.png
+V 20
+file 0-31.0.r31/5099
+K 15
+ViewProfile.png
+V 20
+file 0-33.0.r33/4010
+K 9
+login.png
+V 20
+file 0-24.0.r24/4651
+K 17
+view accounts.png
+V 20
+file 0-34.0.r34/3269
+END
+ENDREP
+id: 0-15.0.r35/681
+type: dir
+pred: 0-15.0.r34/4208
+count: 19
+text: 35 0 668 668 de6b33e4834fac495db990b92f3364d5
+cpath: /Design Docs/Use case
+copyroot: 0 /
+
+PLAIN
+K 21
+Architecture Diagrams
+V 20
+dir 0-13.0.r16/74777
+K 14
+Schema Diagram
+V 20
+dir 0-17.0.r17/87509
+K 8
+Use case
+V 18
+dir 0-15.0.r35/681
+END
+ENDREP
+id: 1-1.0.r35/991
+type: dir
+pred: 1-1.0.r34/4523
+count: 22
+text: 35 838 140 140 318df4116fda6a86b85a96ba4bd7b27f
+cpath: /Design Docs
+copyroot: 0 /
+
+PLAIN
+K 11
+Coding Docs
+V 19
+dir a-1.0.r1/706840
+K 11
+Design Docs
+V 17
+dir 1-1.0.r35/991
+K 19
+Installation Guides
+V 19
+dir 0-1.0.r1/705254
+K 10
+Other Docs
+V 19
+dir 9-1.0.r1/706767
+K 16
+Requirement Docs
+V 20
+dir 4-1.0.r14/286049
+K 12
+Testing Docs
+V 19
+dir 3-1.0.r1/705482
+K 9
+Tutorials
+V 20
+dir 2-1.0.r2/4493314
+END
+ENDREP
+id: 0.0.r35/1460
+type: dir
+pred: 0.0.r34/4995
+count: 35
+text: 35 1139 308 308 b44c76525c96c568e9f30f470bfbafaa
+cpath: /
+copyroot: 0 /
+
+0-32.0.r32/3363 delete false false /Design Docs/Use case/view_accounts.png
+
+
+1460 1595

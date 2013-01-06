@@ -1,0 +1,111 @@
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.ResultSetMetaData;
+import java.sql.SQLException;
+import java.sql.Statement;
+import java.util.Vector;
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+import javax.swing.JScrollPane;
+import javax.swing.JTable;
+import javax.swing.WindowConstants;
+
+
+class Main extends JFrame 
+{    
+    private JScrollPane myScrollPane;
+    private  JTable myTable;
+    private JPanel myPanel;
+    
+    public Main ()
+    {
+        try
+        {  Class.forName("sun.jdbc.odbc.JdbcOdbcDriver");   }
+        catch(ClassNotFoundException cnfe)
+        { cnfe.printStackTrace(System.err);  }
+
+        Connection con = null;
+        Statement stmt = null;
+        try
+        {
+            // Connect to the Inventory database
+            con = DriverManager.getConnection("jdbc:odbc:BookInventory");
+             // Create statement objects.
+            stmt = con.createStatement();  
+            
+            initialize();
+            //the table name is WAITING_ITEMS
+            createTable(stmt.executeQuery("SELECT * FROM WAITING_ITEMS"));
+            stmt.close();
+            con.close();
+        }
+        catch(SQLException sqle)
+        { sqle.printStackTrace(System.err); }
+    }
+    public void initialize() {
+        myScrollPane = new JScrollPane();
+        myTable = new  JTable</strong> ();
+        myScrollPane.setViewportView(myTable);
+        myPanel = new JPanel();
+        myPanel.add(myScrollPane);
+        
+        setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
+        
+        setContentPane(myPanel);
+        
+        pack();
+    }
+    public void createTable (ResultSet rs) {
+        Vector data = null;
+        Vector columnNames = null;
+        try {
+            data = getRowData(rs);;
+            columnNames = getColumnName(rs);
+        }
+        catch (SQLException ex) {
+            ex.printStackTrace();
+        }
+        myTable = new  JTable</strong>(data,columnNames);
+        //The repaint doesn't seem to work
+        myTable.repaint();
+    }
+    public Vector getColumnName (ResultSet rs) throws SQLException {
+        ResultSetMetaData meta = rs.getMetaData();
+        Vector colNames = new Vector ();
+        
+        for( int col = 0; col < meta.getColumnCount(); col++) {
+           colNames.add(meta.getColumnName(col+1));
+        }        
+        return colNames;
+    }
+    public Vector  getRowData (ResultSet table) throws SQLException {
+        ResultSetMetaData meta = table.getMetaData();
+        String[] colNames = new String[meta.getColumnCount()];
+        Vector cells = new Vector();
+        
+        for( int col = 0; col < colNames.length; col++) {
+            colNames[col] = meta.getColumnName(col + 1);
+            cells.add(new Vector());
+        } 
+
+         // hold data from result set
+        while(table.next()) {
+            for(int col = 0; col < colNames.length; col++) {
+               Object cell = table.getObject(colNames[col]);
+               ( (Vector)cells.elementAt(col)).add(cell);
+            }
+        }
+        return cells;
+    }
+    
+    public static void main(String args[]) {
+        //*** NEED TO LOOK UP MORE INFORMATION ***
+        //don't know why this code is needed to run the GUI
+         java.awt.EventQueue.invokeLater(new Runnable() {
+            public void run() {
+                new Main().setVisible(true);
+            }
+        });
+    }
+} 

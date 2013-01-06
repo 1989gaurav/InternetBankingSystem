@@ -1,0 +1,72 @@
+id: 0-48.0.r48/0
+type: dir
+count: 0
+cpath: /Coding Docs/Modules
+copyroot: 0 /
+
+PLAIN
+K 34
+Coding ConvevtionByTeenovators.doc
+V 21
+file 0-46.0.r46/92040
+K 34
+Coding ConvevtionByTeenovators.pdf
+V 21
+file 1-46.0.r46/92275
+K 7
+Modules
+V 16
+dir 0-48.0.r48/0
+END
+ENDREP
+id: a-1.0.r48/264
+type: dir
+pred: a-1.0.r46/92647
+count: 2
+text: 48 79 172 172 15810b421f0a77024b378cca570af7a3
+cpath: /Coding Docs
+copyroot: 0 /
+
+PLAIN
+K 11
+Coding Docs
+V 17
+dir a-1.0.r48/264
+K 11
+Design Docs
+V 20
+dir 1-1.0.r47/491957
+K 19
+Installation Guides
+V 19
+dir 0-1.0.r1/705254
+K 10
+Other Docs
+V 19
+dir 9-1.0.r1/706767
+K 16
+Requirement Docs
+V 21
+dir 4-1.0.r43/1672781
+K 12
+Testing Docs
+V 19
+dir 3-1.0.r1/705482
+K 9
+Tutorials
+V 20
+dir 2-1.0.r2/4493314
+END
+ENDREP
+id: 0.0.r48/734
+type: dir
+pred: 0.0.r47/492437
+count: 48
+text: 48 411 310 310 e7c94f023852846acc3f672c71f64e76
+cpath: /
+copyroot: 0 /
+
+_0.0.t47-1k add false false /Coding Docs/Modules
+
+
+734 869

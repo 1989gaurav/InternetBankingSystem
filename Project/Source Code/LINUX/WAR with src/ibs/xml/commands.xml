@@ -1,0 +1,75 @@
+<Commands>
+	<Total>
+		7
+	</Total>
+	
+	<Item>
+		<id>
+			1
+		</id>
+		<title>Add Biller</title>
+		<desc>
+			Select to Add a new Biller to your Account to pay Bills
+		</desc>
+	</Item>
+		
+	<Item>
+		<id>
+			2
+		</id>
+		<title>Bill History</title>
+		<desc>
+			Select to view Receipt of a previously paid Bill
+		</desc>
+	</Item>
+	
+	<Item>
+		<id>
+			3
+		</id>
+		<title>Change Draft Limit</title>
+		<desc>
+			Select to Change the Draft Issuing Limit on your Account
+		</desc>
+	</Item>
+	
+	<Item>
+		<id>
+			4
+		</id>
+		<title>Change Password</title>
+		<desc>
+			Select to Change your Profile and/or Transaction Password
+		</desc>
+	</Item>
+	
+	<Item>
+		<id>
+			5
+		</id>
+		<title>Control Manager</title>
+		<desc>
+			Select to Open the Control Manager
+		</desc>
+	</Item>
+	
+	<Item>
+		<id>
+			6
+		</id>
+		<title>Delete Biller</title>
+		<desc>
+			Select to delete an already configured Biller if of no use
+		</desc>
+	</Item>
+	
+	<Item>
+		<id>
+			7
+		</id>
+		<title>Draft Status</title>
+		<desc>
+			Select to check the Status of your Draft
+		</desc>
+	</Item>	
+</Commands>

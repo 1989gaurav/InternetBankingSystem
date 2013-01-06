@@ -1,0 +1,70 @@
+9
+
+dir
+249
+svn://repository.ibs.com/SVN_Repos/IBS/Source%20Code/WebContent
+svn://repository.ibs.com/SVN_Repos/IBS
+
+
+
+
+
+
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+incomplete
+
+META-INF
+dir
+
+index.jsp
+file
+219
+
+
+
+2008-10-25T02:58:08.093750Z
+00ca06a76f000d00e7ced1d063858ad7
+2008-10-14T01:19:04.078125Z
+122
+karan
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+a4f30b69-742e-c448-b07a-b76601f0db85
+
+
+
+
+
+
+486
+
+others
+dir
+
+images
+dir
+

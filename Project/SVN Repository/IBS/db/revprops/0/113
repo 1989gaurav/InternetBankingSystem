@@ -1,0 +1,13 @@
+K 10
+svn:author
+V 5
+karan
+K 8
+svn:date
+V 27
+2008-10-13T18:12:58.937500Z
+K 7
+svn:log
+V 122
+Completed the Login Module (Renamed Common module to Global; DBConnection to DBConnect; PersonalLoginValidation to PLogin)
+END

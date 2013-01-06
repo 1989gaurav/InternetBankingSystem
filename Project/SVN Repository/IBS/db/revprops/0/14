@@ -1,0 +1,14 @@
+K 10
+svn:author
+V 5
+rohyt
+K 8
+svn:date
+V 27
+2008-09-05T22:00:41.281250Z
+K 7
+svn:log
+V 139
+It is revised front end of the IBS based on the updated modules.
+Contains : homepage and logged in pages for customer ,admin , entrepreneur
+END

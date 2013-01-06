@@ -1,0 +1,44 @@
+Proposed module development order
+
+0. Logs
+1. Login
+2. My Profile (we need an account to perform rest of the operations)
+	1. View Profile
+	2. Edit profile
+	3. View Accounts
+	4. Add account
+	5. Select (Default) account
+	6. Settings
+		1) Change security level
+		2) Change Password
+		3) Add/Del biller
+
+3. Print and Save as (we need these functions for other transactions etc)
+
+4. Money Transfers
+	1. Intrabanking
+	2. Interbanking
+	3. Cheques/Drafts
+
+5. Utilities
+	1. Card to Card
+	2. Send Money
+	3. Mobile recharge (if possible for us to implement)
+	4. Credit card payment
+	5. Bill payment
+	6. Add/Del biller
+	7. Standing Instructions
+
+8. Enquieries
+
+9. Enable High Security (we need it in the last of all things but it has a high )
+
+10. PUBLIC PROVIDENT FUND
+11. Trade finance
+
+
+12. Admin
+	1. Block/Unblock account
+	2. Customizable theme
+	3. Java Console
+

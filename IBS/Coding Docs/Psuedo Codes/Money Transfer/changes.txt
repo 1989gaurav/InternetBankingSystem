@@ -1,0 +1,14 @@
+Schema diagram changes :
+1. No entries for banks, in which we can transfer money using intra banking.
+2. Administrator can add the bank.
+3. Entry of drafts and money orders to deliever should be there
+4. In credit and debit comment should be there
+5. In transaction table there should be a comment that what is this transaction
+6. No table is mainained for draft, so make it with following entries :
+	1.Draft Number
+	2.Amount
+	3.Payable At
+	4.In favour of
+	5.Status
+	
+	// I have not implemented intrabanking and CardToCard transaction because of some confusion

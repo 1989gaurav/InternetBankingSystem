@@ -1,0 +1,18 @@
+start database manager;
+create database ibs;
+connect to ibs;
+create table ploginInfo(userName varchar(20),password varchar(20),lastloginDate date,lastloginTime time,blockstatus int,userID int,transactionPass varchar(20));
+create table cloginInfo(userName varchar(20),password varchar(20),lastloginDate date,lastloginTime time,blockstatus int,userID int,transactionPass varchar(20));
+create table myProfile(userID int,myName varchar(25),myAddress varchar(50),myPhone varchar(15),mail varchar(50),IDproof varchar(20),IDtype varchar(40));
+create table profileSettings(userID int,securityCode varchar(20),defaultTheme varchar(20));
+create table accountMapping (userID int,accountNumber bigint);
+create table accountDetails(accountNumber bigint,accountType varchar(20),openDate date,balance float,holder1 varchar(20),holder2 varchar(20),holder3 varchar(20),gurantee1 varchar(20),gurantee2 varchar(20),IDproof1 varchar(20),IDproof2 varchar(20),IDproof3 varchar(20),draftLimit float);
+create table Draft(acNumber bigint,favour varchar(100),amount float,payable varchar(100),status varchar(100),mode varchar(10),draftNum int);
+create table credit(accountNumber bigint,amount float,transactionID int,details varchar(80));
+create table transaction(transactionID int,time time,date date);
+create table count(cnt varchar(40),value int);
+create table remittance(accountIssueFrom bigint,accountIssueTo bigint,amount float,dateIssue date,transactionID int,bankIssueTo varchar(50));
+create table billerMapping(userID int,provider varchar(80),nick varchar (20));
+create table billInfo(accountNumber bigint,provider varchar(80),billNumber bigint,amountPaid float,dateTransaction date,timeTransaction time,TransactionID int);
+create table chequeBook(accountNumber bigint,chequeQty int,dateIssued date,chequeBookNumber int,chequeStart int,chequeEnd int,mode varchar(20));
+create table standingInstruction(accountFrom bigint,accountTo bigint,typeSI varchar(20),timeServed varchar(20),dateServed int,amount float);

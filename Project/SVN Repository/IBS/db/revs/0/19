@@ -1,0 +1,85 @@
+PLAIN
+END
+ENDREP
+id: 0-15.0.r19/17
+type: dir
+pred: 0-15.0.r18/254
+count: 3
+text: 19 0 4 4 2d2977d1c96f487abe4a1e202dd03b4e
+cpath: /Design Docs/Use case
+copyroot: 0 /
+
+PLAIN
+K 21
+Architecture Diagrams
+V 20
+dir 0-13.0.r16/74777
+K 14
+Schema Diagram
+V 20
+dir 0-17.0.r17/87509
+K 8
+Use case
+V 17
+dir 0-15.0.r19/17
+END
+ENDREP
+id: 1-1.0.r19/319
+type: dir
+pred: 1-1.0.r18/564
+count: 6
+text: 19 167 139 139 a13a58c80a0a0bd73bd4c106f39b3c7d
+cpath: /Design Docs
+copyroot: 0 /
+
+PLAIN
+K 11
+Coding Docs
+V 19
+dir a-1.0.r1/706840
+K 11
+Design Docs
+V 17
+dir 1-1.0.r19/319
+K 19
+Installation Guides
+V 19
+dir 0-1.0.r1/705254
+K 10
+Other Docs
+V 19
+dir 9-1.0.r1/706767
+K 16
+Requirement Docs
+V 20
+dir 4-1.0.r14/286049
+K 12
+Testing Docs
+V 19
+dir 3-1.0.r1/705482
+K 9
+Tutorials
+V 20
+dir 2-1.0.r2/4493314
+END
+ENDREP
+id: 0.0.r19/786
+type: dir
+pred: 0.0.r18/1033
+count: 19
+text: 19 465 308 308 4a871938aa3b8d4106ca17fd95fa507d
+cpath: /
+copyroot: 0 /
+
+1-15.0.r15/22028 delete false false /Design Docs/Use case/AddAccount.png
+
+2-15.0.r15/22302 delete false false /Design Docs/Use case/ChangeSettings.png
+
+3-15.0.r15/22583 delete false false /Design Docs/Use case/login.png
+
+4-15.0.r15/22856 delete false false /Design Docs/Use case/view_accounts.png
+
+5-15.0.r15/23137 delete false false /Design Docs/Use case/ViewProfile.png
+
+
+786 919

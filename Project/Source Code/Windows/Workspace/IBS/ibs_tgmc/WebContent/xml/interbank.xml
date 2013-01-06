@@ -1,0 +1,68 @@
+<Commands>
+	<Total>
+		9
+	</Total>
+	
+	<Item>
+		<id>
+			1
+		</id>
+		<title>Allahabad Bank</title>
+	</Item>
+	
+	<Item>
+		<id>
+			2
+		</id>
+		<title>Axis Bank</title>
+	</Item>
+		
+	<Item>
+		<id>
+			3
+		</id>
+		<title>HDFC Bank</title>
+	</Item>
+	
+	<Item>
+		<id>
+			4
+		</id>
+		<title>ICICI Bank</title>
+	</Item>
+	
+	<Item>
+		<id>
+			5
+		</id>
+		<title>IDBI Bank</title>
+	</Item>
+	
+	<Item>
+		<id>
+			6
+		</id>
+		<title>Punjab National Bank</title>
+	</Item>
+	
+	<Item>
+		<id>
+			7
+		</id>
+		<title>State Bank of India</title>
+	</Item>
+	
+	<Item>
+		<id>
+			8
+		</id>
+		<title>UCO Bank</title>
+	</Item>
+	
+	<Item>
+		<id>
+			9
+		</id>
+		<title>Union Bank of India</title>
+	</Item>
+</Commands>

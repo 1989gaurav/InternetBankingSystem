@@ -1,0 +1,97 @@
+PLAIN
+K 14
+AddAccount.png
+V 21
+file 1-15.0.r15/22028
+K 18
+ChangeSettings.png
+V 21
+file 2-15.0.r15/22302
+K 15
+ViewProfile.png
+V 21
+file 5-15.0.r15/23137
+K 9
+login.png
+V 21
+file 3-15.0.r15/22583
+K 17
+view_accounts.png
+V 21
+file 4-15.0.r15/22856
+END
+ENDREP
+id: 0-15.0.r18/254
+type: dir
+pred: 0-15.0.r17/88221
+count: 2
+text: 18 0 241 241 6522f21834c7e72cbcdbf7c12e53ddea
+cpath: /Design Docs/Use case
+copyroot: 0 /
+
+PLAIN
+K 21
+Architecture Diagrams
+V 20
+dir 0-13.0.r16/74777
+K 14
+Schema Diagram
+V 20
+dir 0-17.0.r17/87509
+K 8
+Use case
+V 18
+dir 0-15.0.r18/254
+END
+ENDREP
+id: 1-1.0.r18/564
+type: dir
+pred: 1-1.0.r17/88539
+count: 5
+text: 18 411 140 140 5ad7e0bc2c8d65131792e9f47c86d9d0
+cpath: /Design Docs
+copyroot: 0 /
+
+PLAIN
+K 11
+Coding Docs
+V 19
+dir a-1.0.r1/706840
+K 11
+Design Docs
+V 17
+dir 1-1.0.r18/564
+K 19
+Installation Guides
+V 19
+dir 0-1.0.r1/705254
+K 10
+Other Docs
+V 19
+dir 9-1.0.r1/706767
+K 16
+Requirement Docs
+V 20
+dir 4-1.0.r14/286049
+K 12
+Testing Docs
+V 19
+dir 3-1.0.r1/705482
+K 9
+Tutorials
+V 20
+dir 2-1.0.r2/4493314
+END
+ENDREP
+id: 0.0.r18/1033
+type: dir
+pred: 0.0.r17/89014
+count: 18
+text: 18 712 308 308 a153e3e569cb401fac94e852d7a449f0
+cpath: /
+copyroot: 0 /
+
+3-17.0.r17/87719 delete false false /Design Docs/Use case/Thumbs.db
+
+
+1033 1168

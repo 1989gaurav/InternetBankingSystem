@@ -1,0 +1,59 @@
+PLAIN
+K 20
+Actual Front End.JPG
+V 21
+file 0-70.0.r71/96007
+K 11
+Coding Docs
+V 17
+dir a-1.0.r83/644
+K 11
+Design Docs
+V 18
+dir 1-1.0.r74/3297
+K 19
+Installation Guides
+V 19
+dir 0-1.0.r1/705254
+K 10
+Other Docs
+V 19
+dir 9-1.0.r1/706767
+K 16
+Requirement Docs
+V 19
+dir 4-1.0.r84/56384
+K 12
+Testing Docs
+V 19
+dir 3-1.0.r1/705482
+K 9
+Tutorials
+V 20
+dir 2-1.0.r2/4493314
+K 22
+Username_Passwords.doc
+V 20
+file 0-78.0.r78/6331
+K 25
+configuration details.txt
+V 19
+file 0-75.0.r75/497
+K 20
+teenovators_logo.gif
+V 21
+file 0-57.0.r57/13590
+END
+ENDREP
+id: 0.0.r87/535
+type: dir
+pred: 0.0.r86/645
+count: 87
+text: 87 0 522 522 f7d77dc06926eba031f80773901bd0b5
+cpath: /
+copyroot: 0 /
+
+0-86.0.r86/0 delete false false /Source Code
+
+
+535 665

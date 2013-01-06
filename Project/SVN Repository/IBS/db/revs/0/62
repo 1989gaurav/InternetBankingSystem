@@ -1,0 +1,70 @@
+PLAIN
+K 34
+Coding ConvevtionByTeenovators.doc
+V 21
+file 0-46.0.r46/92040
+K 34
+Coding ConvevtionByTeenovators.pdf
+V 21
+file 1-46.0.r46/92275
+K 12
+Psuedo Codes
+V 19
+dir 0-58.0.r61/1171
+END
+ENDREP
+id: a-1.0.r62/194
+type: dir
+pred: a-1.0.r61/1564
+count: 8
+text: 62 0 181 181 3f2dce603a39b711e1073f5b514db978
+cpath: /Coding Docs
+copyroot: 0 /
+
+PLAIN
+K 11
+Coding Docs
+V 17
+dir a-1.0.r62/194
+K 11
+Design Docs
+V 18
+dir 1-1.0.r55/1867
+K 19
+Installation Guides
+V 19
+dir 0-1.0.r1/705254
+K 10
+Other Docs
+V 19
+dir 9-1.0.r1/706767
+K 16
+Requirement Docs
+V 21
+dir 4-1.0.r43/1672781
+K 12
+Testing Docs
+V 19
+dir 3-1.0.r1/705482
+K 9
+Tutorials
+V 20
+dir 2-1.0.r2/4493314
+K 20
+teenovators_logo.gif
+V 21
+file 0-57.0.r57/13590
+END
+ENDREP
+id: 0.0.r62/713
+type: dir
+pred: 0.0.r61/2088
+count: 62
+text: 62 339 361 361 dc0f32f53a3739493dc529e6edda60b5
+cpath: /
+copyroot: 0 /
+
+0-48.0.r56/1233 delete false false /Coding Docs/Modules
+
+
+713 846

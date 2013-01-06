@@ -1,0 +1,7 @@
+neccesory database tables Modifications
+
+1. no need of loanDetails table.
+2. In letterCredit, there should be an entry for letter of credit number.
+3. Add instructionID field in standingInstruction table.
+4. Add remittance field in remittance table.
+5. IDType in accountDetails

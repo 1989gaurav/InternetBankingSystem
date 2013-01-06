@@ -1,0 +1,150 @@
+PLAIN
+K 13
+DbAccess.java
+V 19
+file 0-98.0.r98/500
+K 18
+HandleSession.java
+V 19
+file 3-66.0.r66/952
+K 11
+changes.txt
+V 19
+file 1-76.0.r76/886
+END
+ENDREP
+id: 0-66.0.r99/152
+type: dir
+pred: 0-66.0.r98/917
+count: 5
+text: 99 0 139 139 404bc8cee304e11a5bb6f8cbd64c05e1
+cpath: /Coding Docs/Psuedo Codes/DbAccess
+copyroot: 0 /
+
+PLAIN
+K 6
+Common
+V 19
+dir 0-81.0.r81/1941
+K 8
+DbAccess
+V 18
+dir 0-66.0.r99/152
+K 14
+Money Transfer
+V 19
+dir 0-82.0.r82/6720
+K 10
+My Profile
+V 20
+dir 0-67.0.r67/18810
+K 9
+Utilities
+V 19
+dir 0-68.0.r68/4510
+K 5
+login
+V 18
+dir 1-58.0.r61/953
+END
+ENDREP
+id: 0-58.0.r99/570
+type: dir
+pred: 0-58.0.r98/1337
+count: 15
+text: 99 320 237 237 6076555b20b755b8ebb8a5d3d57e5ab9
+cpath: /Coding Docs/Psuedo Codes
+copyroot: 0 /
+
+PLAIN
+K 34
+Coding ConvevtionByTeenovators.doc
+V 21
+file 0-46.0.r46/92040
+K 34
+Coding ConvevtionByTeenovators.pdf
+V 21
+file 1-46.0.r46/92275
+K 9
+Order.txt
+V 20
+file 0-63.0.r68/3015
+K 12
+Psuedo Codes
+V 18
+dir 0-58.0.r99/570
+END
+ENDREP
+id: a-1.0.r99/966
+type: dir
+pred: a-1.0.r98/1735
+count: 23
+text: 99 733 220 220 f2ec5c302dc750a09a54a7a4bf3edbb9
+cpath: /Coding Docs
+copyroot: 0 /
+
+PLAIN
+K 20
+Actual Front End.JPG
+V 21
+file 0-70.0.r71/96007
+K 11
+Coding Docs
+V 17
+dir a-1.0.r99/966
+K 11
+Design Docs
+V 19
+dir 1-1.0.r97/87372
+K 19
+Installation Guides
+V 19
+dir 0-1.0.r1/705254
+K 10
+Other Docs
+V 19
+dir 9-1.0.r1/706767
+K 16
+Requirement Docs
+V 19
+dir 4-1.0.r84/56384
+K 11
+Source Code
+V 19
+dir 0-88.0.r96/1769
+K 12
+Testing Docs
+V 19
+dir 3-1.0.r1/705482
+K 9
+Tutorials
+V 20
+dir 2-1.0.r2/4493314
+K 22
+Username_Passwords.doc
+V 20
+file 0-78.0.r78/6331
+K 25
+configuration details.txt
+V 19
+file 0-75.0.r75/497
+K 20
+teenovators_logo.gif
+V 21
+file 0-57.0.r57/13590
+END
+ENDREP
+id: 0.0.r99/1692
+type: dir
+pred: 0.0.r98/2463
+count: 99
+text: 99 1114 565 565 a9c329eeaee54c3329c0b3204aa8cec3
+cpath: /
+copyroot: 0 /
+
+1-66.0.r66/1121 delete false false /Coding Docs/Psuedo Codes/DbAccess/DatabaseConnection.java
+
+2-66.0.r77/326 delete false false /Coding Docs/Psuedo Codes/DbAccess/ExecuteQuery.java
+
+
+1692 1827

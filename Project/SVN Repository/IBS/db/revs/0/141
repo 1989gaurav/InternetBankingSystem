@@ -1,0 +1,109 @@
+id: 2-141.0.r141/0
+type: dir
+count: 0
+cpath: /Teenovators/Documents/chm
+copyroot: 0 /
+
+PLAIN
+K 3
+chm
+V 18
+dir 2-141.0.r141/0
+END
+ENDREP
+id: 1-141.0.r141/136
+type: dir
+count: 0
+text: 141 87 36 36 ba8ef045ba5318915e44d2148f3b2699
+cpath: /Teenovators/Documents
+copyroot: 0 /
+
+PLAIN
+K 9
+Documents
+V 20
+dir 1-141.0.r141/136
+END
+ENDREP
+id: 0-141.0.r141/330
+type: dir
+count: 0
+text: 141 273 44 44 f77865ff4b2279211942a23b03238bae
+cpath: /Teenovators
+copyroot: 0 /
+
+PLAIN
+K 20
+Actual Front End.JPG
+V 21
+file 0-70.0.r71/96007
+K 11
+Coding Docs
+V 20
+dir a-1.0.r104/14087
+K 11
+Design Docs
+V 19
+dir 1-1.0.r107/5736
+K 19
+Installation Guides
+V 19
+dir 0-1.0.r1/705254
+K 21
+Modified Final Design
+V 22
+dir 0-132.0.r140/12646
+K 10
+Other Docs
+V 19
+dir 9-1.0.r1/706767
+K 16
+Requirement Docs
+V 19
+dir 4-1.0.r84/56384
+K 11
+Source Code
+V 21
+dir 0-120.0.r136/3053
+K 11
+Teenovators
+V 20
+dir 0-141.0.r141/330
+K 12
+Testing Docs
+V 19
+dir 3-1.0.r1/705482
+K 9
+Tutorials
+V 20
+dir 2-1.0.r2/4493314
+K 22
+Username_Passwords.doc
+V 20
+file 0-78.0.r78/6331
+K 25
+configuration details.txt
+V 19
+file 0-75.0.r131/44
+K 20
+teenovators_logo.gif
+V 21
+file 0-57.0.r57/13590
+END
+ENDREP
+id: 0.0.r141/1139
+type: dir
+pred: 0.0.r140/13453
+count: 141
+text: 141 458 668 668 aba6d9460249e66108dd604160ae4e74
+cpath: /
+copyroot: 0 /
+
+_2.0.t140-4b add false false /Teenovators/Documents/chm
+
+_0.0.t140-4b add false false /Teenovators
+
+_1.0.t140-4b add false false /Teenovators/Documents
+
+
+1139 1278

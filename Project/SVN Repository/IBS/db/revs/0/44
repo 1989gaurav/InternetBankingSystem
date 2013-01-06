@@ -1,0 +1,92 @@
+id: 0-44.0.r44/0
+type: dir
+count: 0
+cpath: /Design Docs/Design BackUp Files
+copyroot: 0 /
+
+PLAIN
+K 21
+Architecture Diagrams
+V 22
+dir 0-13.0.r43/1671486
+K 14
+Class Diagrams
+V 20
+dir 0-36.0.r41/89182
+K 3
+DFD
+V 19
+dir 0-38.0.r39/2242
+K 19
+Design BackUp Files
+V 16
+dir 0-44.0.r44/0
+K 11
+E-R Diagram
+V 20
+dir 0-37.0.r37/85951
+K 14
+Schema Diagram
+V 22
+dir 0-17.0.r43/1670903
+K 17
+Sequence Diagrams
+V 22
+dir 0-41.0.r43/1670384
+K 8
+Use case
+V 18
+dir 0-15.0.r35/681
+END
+ENDREP
+id: 1-1.0.r44/468
+type: dir
+pred: 1-1.0.r43/1671996
+count: 30
+text: 44 91 364 364 e312ad6012ba8a0dbcd0e6cec67fc2dd
+cpath: /Design Docs
+copyroot: 0 /
+
+PLAIN
+K 11
+Coding Docs
+V 19
+dir a-1.0.r1/706840
+K 11
+Design Docs
+V 17
+dir 1-1.0.r44/468
+K 19
+Installation Guides
+V 19
+dir 0-1.0.r1/705254
+K 10
+Other Docs
+V 19
+dir 9-1.0.r1/706767
+K 16
+Requirement Docs
+V 21
+dir 4-1.0.r43/1672781
+K 12
+Testing Docs
+V 19
+dir 3-1.0.r1/705482
+K 9
+Tutorials
+V 20
+dir 2-1.0.r2/4493314
+END
+ENDREP
+id: 0.0.r44/940
+type: dir
+pred: 0.0.r43/1673267
+count: 44
+text: 44 618 309 309 71ea85190c3d145ea4e0357e5a8488f6
+cpath: /
+copyroot: 0 /
+
+_0.0.t43-1g add false false /Design Docs/Design BackUp Files
+
+
+940 1076
